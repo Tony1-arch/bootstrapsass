@@ -1,0 +1,32 @@
+.wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 70vh;
+  width: 100vw;
+}
+
+.wrapper img {
+  display: block;
+  width: 100vw;
+  height: 70vh;
+}
+
+.wrapper h3 {
+  font-size: 3rem;
+  color: rgba(69, 227, 233, 0.623);
+}
+
+.wrapper p {
+  font-size: 2rem;
+  color: rgba(243, 243, 243, 0.678);
+}
+
+.wrapper Button {
+  background-color: rgba(69, 227, 233, 0.623);
+  border: none;
+}
+/*# sourceMappingURL=Header.css.map */

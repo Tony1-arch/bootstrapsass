@@ -1,0 +1,28 @@
+@import "../Variables/Variables.scss";
+
+.wrapper {
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100vw;
+    
+
+    img {
+        display: block;
+        width: 100vw;
+        height: 70vh;
+    
+    }
+    h3{
+        font-size: 3rem;
+        color: $primaryColor;
+    }
+    p{ 
+        font-size: 2rem;
+        color: $secondaryColor;
+    }
+   Button{
+    background-color: $primaryColor;
+    border: none;
+   }
+}
