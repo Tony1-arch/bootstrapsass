@@ -17,9 +17,11 @@ function Header() {
           src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg"
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        < Carousel.Caption className='content'>
+       <h3>First slide label</h3>
+            <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors no.
+            </p>
           <Button>Contact us</Button>
         </Carousel.Caption>
       </Carousel.Item>
@@ -30,9 +32,11 @@ function Header() {
           alt="Second slide"
         />
 
-        <Carousel.Caption>
+        <Carousel.Caption className='content'>
           <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors no.
+            </p>
           <Button>Contact us</Button>
         </Carousel.Caption>
       </Carousel.Item>
@@ -43,11 +47,11 @@ function Header() {
           alt="Third slide"
         />
 
-        <Carousel.Caption>
+        <Carousel.Caption className='content'>
           <h3>Third slide label</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors no.
+            </p>
           <Button>Contact us</Button>
         </Carousel.Caption>
       </Carousel.Item>

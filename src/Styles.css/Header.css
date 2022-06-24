@@ -1,31 +1,46 @@
 .wrapper {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 70vh;
-  width: 100vw;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: clamp(400px 70vh 100vh);
+  width: clamp(600px 100vw 100vw);
+  background-color: #35338d;
 }
 
 .wrapper img {
   display: block;
   width: 100vw;
   height: 70vh;
+  mix-blend-mode: hard-light;
 }
 
-.wrapper h3 {
+.content {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  padding: 10px;
+}
+
+.content h3 {
   font-size: 3rem;
+  margin-bottom: 3rem;
   color: rgba(69, 227, 233, 0.623);
 }
 
-.wrapper p {
-  font-size: 2rem;
+.content p {
+  font-size: 1rem;
   color: rgba(243, 243, 243, 0.678);
+  margin-bottom: 3rem;
+  border-left: solid 1px red;
+  padding: 12px;
 }
 
-.wrapper Button {
+.content Button {
   background-color: rgba(69, 227, 233, 0.623);
   border: none;
 }
