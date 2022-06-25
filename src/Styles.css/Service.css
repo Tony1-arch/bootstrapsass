@@ -22,7 +22,7 @@
   display: grid;
   -ms-grid-columns: auto auto auto;
       grid-template-columns: auto auto auto;
-  gap: 60px;
+  gap: 40px;
   -ms-flex-line-pack: center;
       align-content: center;
   background-color: #e7f1ee;
@@ -83,8 +83,8 @@
   display: grid;
   -ms-grid-columns: auto auto auto auto;
       grid-template-columns: auto auto auto auto;
-  -ms-grid-rows: 200px;
-      grid-template-rows: 200px;
+  -ms-grid-rows: 350px , 350px;
+      grid-template-rows: 350px , 350px;
   margin: 30px;
   background-color: green;
   place-content: center;
@@ -97,11 +97,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 200px;
+  height: 300px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-top: 20px;
   padding: 20px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(15, 39, 116, 0.1)), to(rgba(255, 252, 179, 0.4))), url("https://cdn.pixabay.com/photo/2016/05/21/21/39/housebuilding-1407499__340.jpg");
   background-image: linear-gradient(to bottom, rgba(15, 39, 116, 0.1), rgba(255, 252, 179, 0.4)), url("https://cdn.pixabay.com/photo/2016/05/21/21/39/housebuilding-1407499__340.jpg");
@@ -114,7 +115,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 200px;
+  height: 300px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -131,7 +132,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 200px;
+  height: 300px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -148,7 +149,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 200px;
+  height: 300px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -165,7 +166,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 200px;
+  height: 300px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -182,7 +183,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 200px;
+  height: 300px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -199,7 +200,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 200px;
+  height: 300px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -216,7 +217,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 200px;
+  height: 300px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -229,6 +230,7 @@
 }
 
 .project1 h4 {
+  padding-top: 60px;
   color: aqua;
   font-size: 1.6rem;
 }
@@ -241,6 +243,7 @@
 
 .project2 h4 {
   color: aqua;
+  padding-top: 60px;
   font-size: 1.6rem;
 }
 
@@ -253,6 +256,7 @@
 .project3 h4 {
   color: aqua;
   font-size: 1.6rem;
+  padding-top: 60px;
 }
 
 .project3 p {
@@ -262,6 +266,7 @@
 }
 
 .project4 h4 {
+  padding-top: 60px;
   color: aqua;
   font-size: 1.6rem;
 }
@@ -274,6 +279,7 @@
 
 .project5 h4 {
   color: aqua;
+  padding-top: 60px;
   font-size: 1.6rem;
 }
 
@@ -284,6 +290,7 @@
 }
 
 .project6 h4 {
+  padding-top: 60px;
   color: aqua;
   font-size: 1.6rem;
 }
@@ -295,6 +302,7 @@
 }
 
 .project7 h4 {
+  padding-top: 60px;
   color: aqua;
   font-size: 1.6rem;
   font-weight: 600;
@@ -309,6 +317,7 @@
 .project8 h4 {
   color: aqua;
   font-size: 1.6rem;
+  padding-top: 60px;
 }
 
 .project8 p {
