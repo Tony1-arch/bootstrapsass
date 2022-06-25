@@ -67,6 +67,46 @@ function Service() {
             </div>
         </div>
         </div>
+        <div className='project'>
+          <h2>OUR PROJECTS</h2>
+          <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Thnt here, content here', making it look like readable t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Thnt here, content here', making it look like readabl
+          t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Thnt here, content here', making it look like readabl
+          </p>
+        </div>
+         <div  className='projects'>
+        <div className='project1'>
+           <h4>Project 1</h4> 
+           <p> t is a long established fact that a reader will be distracted by the readable content of  be distracted by the readab  be distracted by the readaba page when looking at its layout. Thnt here, content here'</p>
+        </div>
+        <div className='project2'>
+           <h4>Project 2</h4> 
+           <p> t is a long established fact that a reader will be distracted by the readable content of  be distracted by the readab  be distracted by the readaba page when looking at its layout. Thnt here, content here'</p>
+        </div>
+        <div className='project3'>
+           <h4>Project 3</h4> 
+           <p> t is a long established fact that a reader will be distracted by the readable content of  be distracted by the readab  be distracted by the readaba page when looking at its layout. Thnt here, content here'</p>
+        </div>
+        <div className='project4'>
+           <h4>Project 4</h4> 
+           <p> t is a long established fact that a reader will be distracted by the readable content of  be distracted by the readab  be distracted by the readaba page when looking at its layout. Thnt here, content here'</p>
+        </div>
+        <div className='project5'>
+           <h4>Project 5</h4> 
+           <p> t is a long established fact that a reader will be distracted by the readable content of  be distracted by the readab  be distracted by the readaba page when looking at its layout. Thnt here, content here'</p>
+        </div>
+        <div className='project6'>
+           <h4>Project 6</h4> 
+           <p> t is a long established fact that a reader will be distracted by the readable content of  be distracted by the readab  be distracted by the readaba page when looking at its layout. Thnt here, content here'</p>
+        </div>
+        <div className='project7'>
+           <h4>Project 7</h4> 
+           <p> t is a long established fact that a reader will be distracted by the readable content of  be distracted by the readab  be distracted by the readaba page when looking at its layout. Thnt here, content here'</p>
+        </div>
+        <div className='project8'>
+           <h4>Project 8</h4> 
+           <p> t is a long established fact that a reader will be distracted by the readable content of  be distracted by the readab  be distracted by the readaba page when looking at its layout. Thnt here, content here'</p>
+        </div>
+      </div>
      
     </div>
   )

@@ -4,6 +4,8 @@ body {
   padding: 0;
   font-family: "Times New Roman", Times, serif;
   max-height: 100vh;
+  background-color: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+  
 }
 
 code {

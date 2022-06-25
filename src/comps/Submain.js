@@ -29,10 +29,8 @@ function Submain() {
                 <p>t is a long established fact that a reader will be distracted by the readable content of  be distracted by the readab  be distracted by the readaba page when looking at its layout. Thnt here, content here', making it look like readable</p>
             </div>
         </div>
-           
-
         </div>
-     
+      
         </>
     
   )
