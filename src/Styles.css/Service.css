@@ -48,11 +48,18 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-shadow: 10px 10px 10px #888888;
+          box-shadow: 10px 10px 10px #888888;
   background-color: #9dacdb;
 }
 
 .cardservices:hover {
   background-color: white;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.12);
+          transform: scale(1.12);
+  cursor: pointer;
 }
 
 .cardservices img {
@@ -110,6 +117,14 @@
   background-size: cover;
 }
 
+.project1:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
+}
+
 .project2 {
   max-width: 30vw;
   display: -webkit-box;
@@ -125,6 +140,14 @@
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 252, 179, 0.4)), url("https://cdn.pixabay.com/photo/2013/02/05/19/16/sky-78113__340.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.project2:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
 }
 
 .project3 {
@@ -144,6 +167,14 @@
   background-size: cover;
 }
 
+.project3:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
+}
+
 .project4 {
   max-width: 30vw;
   display: -webkit-box;
@@ -159,6 +190,14 @@
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 252, 179, 0.4)), url("https://cdn.pixabay.com/photo/2014/12/15/14/02/construction-worker-569126__340.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.project4:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
 }
 
 .project5 {
@@ -178,6 +217,14 @@
   background-size: cover;
 }
 
+.project5:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
+}
+
 .project6 {
   max-width: 30vw;
   display: -webkit-box;
@@ -193,6 +240,14 @@
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 252, 179, 0.4)), url("https://cdn.pixabay.com/photo/2018/05/03/10/18/housebuilding-3370969__340.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.project6:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
 }
 
 .project7 {
@@ -212,6 +267,14 @@
   background-size: cover;
 }
 
+.project7:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
+}
+
 .project8 {
   max-width: 30vw;
   display: -webkit-box;
@@ -227,6 +290,14 @@
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 252, 179, 0.4)), url("https://cdn.pixabay.com/photo/2020/12/05/14/09/man-5806015__340.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.project8:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
 }
 
 .project1 h4 {

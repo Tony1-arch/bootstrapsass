@@ -25,6 +25,7 @@
     place-content: center;
     place-items: center;
     padding: 20px;
+
     
     //max-height: 350px;
 }
@@ -36,12 +37,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 10px 10px 10px #888888;
     background-color:rgb(157, 172, 219);
+
 }
 .cardservices:hover{
     background-color: white;
-    
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.12);
+    cursor: pointer;
 }
+    
+
 
  .cardservices img {
    
@@ -65,6 +72,7 @@ font-size: 1.4rem;
 }
 
 .projects{
+    
     max-width: 100vw;
     display: grid;
     grid-template-columns: auto auto auto auto ;
@@ -87,6 +95,11 @@ font-size: 1.4rem;
    background-repeat: no-repeat;
    background-size: cover;
 }
+.project1:hover{
+transition: all 0.3s ease-in-out;
+transform: scale(1.2);
+cursor: pointer;
+}
 .project2{
     max-width: 30vw;
     display: flex;
@@ -96,6 +109,11 @@ font-size: 1.4rem;
     background-image:   linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 252, 179, 0.4)), url("https://cdn.pixabay.com/photo/2013/02/05/19/16/sky-78113__340.jpg");
    background-repeat: no-repeat;
    background-size: cover;
+}
+.project2:hover{
+ transition: all 0.3s ease-in-out;
+transform: scale(1.2);
+cursor: pointer;
 }
 .project3{
     max-width: 30vw;
@@ -107,6 +125,11 @@ font-size: 1.4rem;
    background-repeat: no-repeat;
    background-size: cover;
 }
+.project3:hover{
+transition: all 0.3s ease-in-out;
+transform: scale(1.2);
+cursor: pointer;
+}
 .project4{
     max-width: 30vw;
     display: flex;
@@ -116,6 +139,11 @@ font-size: 1.4rem;
     background-image:   linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 252, 179, 0.4)), url("https://cdn.pixabay.com/photo/2014/12/15/14/02/construction-worker-569126__340.jpg");
    background-repeat: no-repeat;
    background-size: cover;
+}
+.project4:hover{
+transition: all 0.3s ease-in-out;
+transform: scale(1.2);
+cursor: pointer;
 }
 .project5{
     max-width: 30vw;
@@ -127,6 +155,11 @@ font-size: 1.4rem;
    background-repeat: no-repeat;
    background-size: cover;
 }
+.project5:hover{
+transition: all 0.3s ease-in-out;
+transform: scale(1.2);
+cursor: pointer;
+}
 .project6{
     max-width: 30vw;
     display: flex;
@@ -136,7 +169,13 @@ font-size: 1.4rem;
     background-image:   linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 252, 179, 0.4)), url("https://cdn.pixabay.com/photo/2018/05/03/10/18/housebuilding-3370969__340.jpg");
    background-repeat: no-repeat;
    background-size: cover;
-}.project7{
+}
+.project6:hover{
+transition: all 0.3s ease-in-out;
+transform: scale(1.2);
+cursor: pointer;
+}
+.project7{
     max-width: 30vw;
     display: flex;
     height: 300px;
@@ -145,6 +184,11 @@ font-size: 1.4rem;
     background-image:   linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 252, 179, 0.4)), url("https://cdn.pixabay.com/photo/2017/08/20/02/47/foundation-2660502__480.jpg");
    background-repeat: no-repeat;
    background-size: cover;
+}
+.project7:hover{
+transition: all 0.3s ease-in-out;
+transform: scale(1.2);
+cursor: pointer;
 }
 .project8{
     max-width: 30vw;
@@ -156,6 +200,14 @@ font-size: 1.4rem;
    background-repeat: no-repeat;
    background-size: cover;
 }
+
+.project8:hover {
+transition: all 0.3s ease-in-out;
+transform: scale(1.2);
+cursor: pointer;
+ 
+}
+
 .project1 h4 {
     padding-top: 60px;
     color: aqua;

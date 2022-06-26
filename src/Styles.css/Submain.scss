@@ -12,6 +12,17 @@
      color: green;
      text-align: center;
      margin-bottom: 20px;
+     
+   }
+
+ .head h2::after {
+  content: "";
+  height: 1px;
+  margin: 15px auto;
+  width: 1px;
+  display: block;
+  background: chartreuse;
+ 
    }
  
  .head p{
@@ -23,10 +34,11 @@
     display: grid;
     height: 500px;
     grid-template-columns: auto auto ;
-    gap: 10px;
+    gap: 30px;
     place-content: center;
     place-items: center;
     background-color: rgb(231, 241, 238);
+    
    // max-height: 650px;
    }
    .cardContent{
@@ -37,6 +49,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 10px 16px #888888;
     
    }
     .cardContent img{

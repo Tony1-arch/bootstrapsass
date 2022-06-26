@@ -11,6 +11,15 @@
   margin-bottom: 20px;
 }
 
+.head h2::after {
+  content: "";
+  height: 1px;
+  margin: 15px auto;
+  width: 1px;
+  display: block;
+  background: chartreuse;
+}
+
 .head p {
   font-size: 1rem;
   text-align: center;
@@ -23,7 +32,7 @@
   height: 500px;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
-  gap: 10px;
+  gap: 30px;
   place-content: center;
   place-items: center;
   background-color: #e7f1ee;
@@ -45,6 +54,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-shadow: 10px 16px #888888;
+          box-shadow: 10px 16px #888888;
 }
 
 .cardContent img {

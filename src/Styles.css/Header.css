@@ -5,15 +5,17 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  height: clamp(400px 70vh 100vh);
+  height: clamp(400px 90vh 100vh);
   width: clamp(600px 100vw 100vw);
   background-color: #35338d;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
 }
 
 .wrapper img {
   display: block;
   width: 100vw;
-  height: 70vh;
+  height: 90vh;
   mix-blend-mode: hard-light;
 }
 
@@ -30,6 +32,7 @@
   font-size: 3rem;
   margin-bottom: 3rem;
   color: rgba(69, 227, 233, 0.623);
+  width: 0 auto;
 }
 
 .content p {
@@ -43,5 +46,7 @@
 .content Button {
   background-color: rgba(69, 227, 233, 0.623);
   border: none;
+  width: 0 auto;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=Header.css.map */

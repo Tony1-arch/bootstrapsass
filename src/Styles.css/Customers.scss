@@ -1,0 +1,96 @@
+@import "../Variables/Variables.scss";
+.gridMain{
+    display: grid;
+    grid-template-columns: 380px 380px 380px ;
+    //grid-template-rows:  280px ;
+    gap: 20px;
+    place-content: center;
+    place-items: center;
+    padding: 50px;
+    
+}
+  .card{
+    box-shadow: 10px 14px  #888888;
+   // color: aliceblue;
+    width: 380px;
+    /* display: flex;
+    flex-direction: row; */
+    //margin: 4px 12px;
+   // height: 280px;
+    
+} 
+.singleGrid{
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    background-color: khaki;
+    padding: 20px;
+    height: 200px;
+    
+    
+}
+.sinlge1 {
+    padding: 6px;
+    margin-right: 2.5px;
+    
+}
+ .sinlge1 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 6px solid white;
+
+}
+.sinlge1 h6 {
+    padding-top: 20px;
+    color: aqua;
+    opacity: 0.6;
+}
+.sinlge1:hover h6{
+    opacity: 1;
+    cursor: pointer;
+}
+.single2{
+    margin-left: 2.6px;
+    padding: 12px;
+    border-left: 2px solid blue;
+    
+}
+.single2 h5{
+    margin-top: 4.6px;
+    color: green;
+    text-align: left;
+
+}
+.single2 p{
+    line-height: 1.6;
+    margin-bottom: 0;
+    margin-top: 2.6px;
+    text-align: left;
+}
+.customer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.customer h2{
+    color: green;
+}
+.customer p{
+    line-height: 1.6;
+}
+
+.singllink{
+    display: flex;
+    flex-direction: row;
+     //background-color: red;
+     //align-items: flex-start;
+    justify-content: space-around;
+    color: blue;
+    padding-left: 0;
+     margin: 0 auto;
+    //padding-right: 30px;
+   
+}
